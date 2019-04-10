@@ -3,7 +3,7 @@ class Student
   #  with DB[:conn]  
   
   attr_accessor :name, :grage
-  attr_reader 
+  attr_reader :id
   
   def initialize(name, grade, id = nil)
     
